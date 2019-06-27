@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <header class="container-fluid navbar navbar-expand-sm navbar-light row align-items-baseline m-0">
+                <!-- Incluindo col-4 para fixar o tamanho -->
+                <span class="col-4">
+                    <a href="#">REACH ME OUT</a><span class="dot-color">.</span>
+                </span>
+        
+                <!-- Toggle para navegação mobile -->  
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#naveffect"
+                aria-controls="navbarNav" aria-expanded ="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+        
+                <!-- navbar collpase que faz aparecer e desaparecer o menu -->
+                <!-- retirei col-8 para fizer o tamnaho do colapse ficar no centro-->
+                <nav class="text-center navbar-collapse collapse" id="naveffect">
+        
+                <!-- inserido navbarnav na ul aumentando seu tamanho e flex para posicionar -->
+                <!-- FICOU FALTANDO POSICIONAR AS CATEGORIAS NO COLLAPSE -->
+               
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">O que Fazemos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    </ul>     
+                </nav>
+        </header>
+
+            <section>
+                <article class="row" id="bg-content">
+                    <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                        <h1>Encontre o Influencer para o seu negócio</h1>
+                        <p>Conecte sua marca com os micro influenciadores do seu nicho de mercado e alcance o seu público alvo</p>
+                        <div id="btn-content">
+                            <a class="btn btn-lg btn-marca" href="#"><h3>Marca</h3></a>
+                            <a class="btn btn-lg btn-influencer" href="#"><h3>Influencer</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="" alt="">
+                    </div>
+                </article>
+            </section>
+
+</body>
+</html>

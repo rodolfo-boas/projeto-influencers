@@ -1,0 +1,111 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    font-size: 18px;
+}
+
+/* ================================================ Header Início ====================================== */
+
+header{
+    background-color: white;
+}
+
+header span a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.dot-color {
+    color: crimson;
+    font-size: 30px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+/* ================================================ Header Fim ========================================== */
+
+/* ================================================ Banner Início ======================================= */
+
+section #bg-content {
+    background-color: purple;
+    height: 70vh;
+}
+
+section article h1{
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+    width: 60%;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+section article p{
+    text-align: left;
+    color: white;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section article #btn-content{
+    display: flex;
+    flex-direction: row;
+    width: 61%;
+}
+
+section article .btn-marca{
+    background-color: mediumorchid;
+    border: none;
+    padding: 4px 38px;
+    border-radius: 50px;
+    margin-right: 5%;
+}
+
+section article .btn-influencer{
+    background-color: yellow;
+    border: none;
+    padding: 4px 30px;
+    border-radius: 50px;
+}
+
+section article .btn-marca h3{
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    padding: 6px 0 0 0;
+    font-family: 'Lobster', cursive;
+}
+
+section article .btn-influencer h3{
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    padding: 6px 0 0 0;
+    font-family: 'Lobster', cursive;
+}
+
+/* ================================================ Banner Fim ========================================== */
