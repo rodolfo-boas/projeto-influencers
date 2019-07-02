@@ -9,7 +9,7 @@ body{
 /* ================================================ Header Início ====================================== */
 
 header{
-    background-color: white;
+    background-color:#ffffff;
 }
 
 header span a{
@@ -58,7 +58,7 @@ section article h1{
 
 section article p{
     text-align: left;
-    color: white;
+    color: #fff;
     width: 60%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
