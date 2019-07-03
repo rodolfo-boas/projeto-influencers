@@ -1,43 +1,4 @@
-*{
-    font-family: 'Ubuntu', sans-serif;
-}
 
-body{
-    font-size: 18px;
-}
-
-/* ================================================ Header Início ====================================== */
-
-header{
-    background-color:#ffffff;
-}
-
-header span a{
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.dot-color {
-    color: crimson;
-    font-size: 30px;
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 0.9em;
-    font-weight: lighter;
-}
-
-/* ================================================ Header Fim ========================================== */
 
 /*================================================= Form Inicio ========================================= */
 
@@ -46,7 +7,7 @@ header nav ul {
 }
 .contact{
     background-color: purple;
-    margin: 8% auto 4%;
+    margin: auto;
     width: 40%;
     height: 75vh;
     display: flex;
