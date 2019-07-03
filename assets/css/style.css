@@ -19,6 +19,12 @@ header span a{
     font-size: 1.2em;
 }
 
+header span a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+
 .dot-color {
     color: crimson;
     font-size: 30px;
@@ -43,6 +49,7 @@ header nav ul {
 
 section #bg-content {
     background-color: purple;
+    
     height: 70vh;
 }
 
@@ -81,11 +88,19 @@ section article .btn-marca{
     margin-right: 5%;
 }
 
+section article .btn-marca:hover{
+    opacity: 0.8;
+}
+
 section article .btn-influencer{
     background-color: yellow;
     border: none;
     padding: 4px 30px;
     border-radius: 50px;
+}
+
+section article .btn-influencer:hover{
+    opacity: 0.8;
 }
 
 section article .btn-marca h3{
@@ -109,3 +124,7 @@ section article .btn-influencer h3{
 }
 
 /* ================================================ Banner Fim ========================================== */
+
+#teste{
+    background-color: blue;
+}
