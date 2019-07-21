@@ -11,15 +11,6 @@
         ?>
 
         <section>
-            <!-- <article class="row" id="bg-content">
-                <div class="col-6 d-flex flex-column justify-content-center align-items-center"> -->
-                    <!-- <p>formulario</p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img class="img-fluid" src="" alt="">
-                </div> --> 
-            <!-- </article> -->
             <div class="fundo">
                 <div class="contact">
                     <div class="contact-title text-center">
