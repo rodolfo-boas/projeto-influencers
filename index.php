@@ -11,6 +11,8 @@
         ?>
 
         <main>
+
+        <!-- teste -->
             <section class="container-fluid">
                 <article class="row" id="bg-content">
                     <div class="col-12 col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center" id="textHome">
