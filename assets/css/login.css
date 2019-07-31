@@ -1,0 +1,38 @@
+.cadastro{
+    padding-top: 20%;
+    color: #fff;
+    
+}
+
+.login{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.login-button button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 4px 80px;
+    border-radius: 50px;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.cadastro-button button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 4px 80px;
+    border-radius: 50px;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: black;
+    font-family: 'Lobster', cursive;
+}

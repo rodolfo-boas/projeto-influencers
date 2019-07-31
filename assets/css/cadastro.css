@@ -1,0 +1,23 @@
+.cadastro-info{
+    color:white;
+}
+
+.cadastro-title{
+    font-size: 1.2em;
+}
+
+.cadastro-obrigatorio{
+    font-size: 0.8em;
+}
+
+div.cadastro-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    margin: auto;
+}

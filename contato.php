@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <?php
                 include "inc/head.php";
-                include "inc/headContato.php"
+                include "inc/headContato.php";
     ?>
     <body>
 
