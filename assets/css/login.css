@@ -1,8 +1,20 @@
-.cadastro{
-    padding-top: 20%;
-    color: #fff;
-    
+.bg-content {
+    background-color: purple;
 }
+
+.cadastro{
+    color: #fff;
+    padding-right: 10px;
+}
+
+.sobre-borda{
+    padding-right: 0;
+}
+
+.borda{
+    border-right: 1px solid #fff;
+}
+
 
 .login{
     padding-top: 20px;
@@ -23,11 +35,11 @@
     font-family: 'Lobster', cursive;
 }
 
-.cadastro-button button{
+.cadastro-button a{
     background-color: yellow;
     color: black;
     border: none;
-    padding: 4px 80px;
+    padding: 4px 45px;
     border-radius: 50px;
     font-size: 1em;
     outline: none;

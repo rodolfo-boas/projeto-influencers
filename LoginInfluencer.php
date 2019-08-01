@@ -1,32 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <?php
-        include "inc/head.php";
-        include "inc/headLogin.php";
-    ?>
-    
-    <body>
-    
-        <?php
-            include "inc/header.php"
-        ?>
+<link rel="stylesheet" href="assets/css/login.css">
 
-        <main id="bg-content">
-            <section>
-                <div class="row">
+<div class="modal fade bd-influencer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-content">
+            <section class="container-fluid h-100">
+                <div class="row h-100">
 
-                    <div class="col-10 offset-1 col-md-4 offset-md-2">
-                        <div class="cadastro">
-                            <h4 class="text-center">Ainda não sou Influencer</h4>
-                            <p class="text-center">Se não possui conta, clique no botão abaixo</p>
-                            <div class="cadastro-button d-flex justify-content-center"> 
-                                <button type="submit" name="botao">quero me cadastrar</button>
-                            </div> 
-                            
+                    <div class="sobre-borda col-10 offset-1 col-md-4 offset-md-2 d-flex flex-column justify-content-center">
+                        <div class="borda h-75 d-flex flex-column justify-content-center">
+                            <div class="cadastro">
+                                <h4 class="text-center">Ainda não sou Influencer</h4>
+                                <p class="text-center">Se não possui conta, clique no botão abaixo</p>
+                                <div class="cadastro-button d-flex justify-content-center"> 
+                                    <a class="btn btn-lg btn-influencer" href="CadastroInfluencer.php">quero me cadastrar</a>
+                                </div> 
+                            </div>
                         </div>
                     </div> <!-- fim Col Cadastro -->
 
-                    <div class="col-10 offset-1 col-md-4 offset-md-0">
+                    <div class="col-10 offset-1 col-md-4 offset-md-0 d-flex flex-column justify-content-center">
                         <div class="login">
                             <h4 class="text-center">Sou Influencer</h4>
                             <p class="text-center">Se você já possui conta conosco, entre com seu usuário e senha abaixo:</p>
@@ -46,12 +38,7 @@
 
                 </div> <!-- fim ROW -->
             </section>
-        </main>        
 
-        <?php
-            include "inc/footer.php";
-        ?>
-
-    </body>
-
-</html>
+        </div>
+    </div>
+</div>

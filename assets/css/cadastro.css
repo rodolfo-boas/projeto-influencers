@@ -16,8 +16,23 @@ div.cadastro-info{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
 }
 
 .cadastro{
     margin: auto;
+}
+
+.cadastro-button button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 4px 80px;
+    border-radius: 50px;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: black;
+    font-family: 'Lobster', cursive;
 }

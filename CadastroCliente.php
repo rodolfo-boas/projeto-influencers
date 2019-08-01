@@ -12,7 +12,7 @@
         ?>
 
         <main id="bg-content">
-            <section>
+            <section class="container-fluid">
                 <div class="cadastro">
 
                     <div class="row">
@@ -97,6 +97,10 @@
                         </div> 
 
                     </div>
+
+                    <div class="cadastro-button d-flex justify-content-center"> 
+                        <button type="submit" name="botao">Cadastrar</button>
+                    </div> 
 
                 </div>    
             </section>
