@@ -43,9 +43,11 @@ header nav ul {
    
     /* ================================================ Header Fim ========================================== */
 
+
+
     /* ================================================ Banner Início ======================================= */
 
-#bg-content {
+section #bg-content {
     background-color: purple;
 }
 
@@ -128,6 +130,47 @@ section #img-home{
 }
 
     /* ================================================ Banner Fim ========================================== */
+
+    /* ================================================ Carrossel Início ======================================= */
+
+.container-fluid h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.img-carrossel{
+    max-width: 150px;
+}
+
+    /* ================================================ Carrossel Fim ======================================= */
+
+    /* ================================================ Review Início ======================================= */
+
+    .reviewContent h3{
+        color: white;
+    }
+    
+    section.reviewContent{
+        background-color: purple;
+    }
+
+    section.reviewContent p{
+        line-height: 1.9;
+    }
+    
+    section article .reviewBorder{
+        border-bottom: 1px solid white;
+        
+    }
+
+    article div h4{
+        color: white;
+        font-size: 0.8em;
+        margin-top: 10px;
+    }
+
+    /* ================================================ Review Fim ======================================= */
 
     /* ======================================= Gallery Influencers Inicio =================================== */
 
@@ -311,6 +354,22 @@ footer div{
     }
     /* ================================================ Banner Fim ========================================== */
 
+    /* ================================================ Carrossel Início ========================================== */
+
+    .carousel-control-prev{
+        display: flex;
+    }
+    
+    .carousel-control-next{
+        display: flex;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
+     /* ================================================ Carrossel Fim ========================================== */
+
     /* ======================================= Gallery Influencers Inicio =================================== */
 
     body section article .influenciador{
@@ -322,6 +381,15 @@ footer div{
     }
     
     /* ======================================== Gallery Infliencers Fim ===================================== */
+
+    /* ======================================== Review Início ================================================ */
+
+    section.reviewContent p {
+        line-height: 1.9;
+        font-size: 0.8em;
+    }
+
+    /* ======================================== Review Fim =================================================== */
 }
 /* Dispositivos large (desktops com 992px ou mais) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -355,6 +423,23 @@ footer div{
     
     /* ================================================ Banner Fim ========================================== */
 
+    /* ================================================ Carrossel Início ========================================== */
+
+    .carousel-control-prev{
+        display: flex;
+    }
+    
+    .carousel-control-next{
+        display: flex;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
+     /* ================================================ Carrossel Fim ========================================== */
+
+
     /* ======================================= Gallery Influencers Inicio =================================== */
 
     body section article .influenciador{
@@ -374,14 +459,14 @@ footer div{
         height:100%;
     }
 
-    section article h1{
+    section article h1.main-title{
         text-align: left;
         padding-bottom: 20px;
         width: 60%;
         font-size: 2em;
     }
     
-    section article p{
+    section article p.main-text{
         text-align: left;
         width: 60%;
         font-size: 1.1em;
@@ -400,6 +485,18 @@ footer div{
         height: 100%;
     }
 
+    /* ======================================== Review Início ================================================ */
+
+    section.reviewContent p {
+        line-height: 1.9;
+        font-size: 0.9em;
+    }
+
+    /* ======================================== Review Fim =================================================== */
+
+}
+
+
     /* ======================================= Gallery Influencers Inicio =================================== */
 
     body .todos-influ{
@@ -416,7 +513,7 @@ footer div{
     }
         
     /* ======================================== Gallery Infliencers Fim ===================================== */
-
+    
     /* ================================================ Footer Inicio ======================================= */
 
     .fixarRodape {

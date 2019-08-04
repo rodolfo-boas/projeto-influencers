@@ -21,17 +21,6 @@
             <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="quemsomos.php">Quem Somos</a></li>
             <li class="nav-item"><a class="nav-link" href="contato.php">Contato</a></li>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-cliente-modal-lg" style="margin-right: 5px;">Cliente</button>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-influencer-modal-lg">Influencer</button>
         </ul>     
     </nav>
-
-    <?php
-        include "LoginCliente.php"
-    ?>
-
-    <?php
-        include "LoginInfluencer.php"
-    ?>
-
 </header>

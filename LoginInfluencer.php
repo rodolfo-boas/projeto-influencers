@@ -3,11 +3,12 @@
 <div class="modal fade bd-influencer-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content bg-content">
-            <section class="container-fluid h-100">
-                <div class="row h-100">
 
-                    <div class="sobre-borda col-10 offset-1 col-md-4 offset-md-2 d-flex flex-column justify-content-center">
-                        <div class="borda h-75 d-flex flex-column justify-content-center">
+            <section class="container-fluid h-100">
+                <div class="row h-100 d-flex">
+
+                    <div class="sobre-borda col-10 offset-1 col-md-6 offset-md-0 d-flex flex-column justify-content-center order-1 order-md-0">
+                        <div class="borda h-75 d-flex flex-column justify-content-center ">
                             <div class="cadastro">
                                 <h4 class="text-center">Ainda não sou Influencer</h4>
                                 <p class="text-center">Se não possui conta, clique no botão abaixo</p>
@@ -18,7 +19,7 @@
                         </div>
                     </div> <!-- fim Col Cadastro -->
 
-                    <div class="col-10 offset-1 col-md-4 offset-md-0 d-flex flex-column justify-content-center">
+                    <div class="col-10 offset-1 col-md-6 offset-md-0 d-flex flex-column justify-content-center order-1 order-md-0">
                         <div class="login">
                             <h4 class="text-center">Sou Influencer</h4>
                             <p class="text-center">Se você já possui conta conosco, entre com seu usuário e senha abaixo:</p>

@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: space-between;
-    border: none; 
+    border: 1px; 
     border-radius: 10px;
     color: white;
     padding: 4vh 0;
@@ -49,7 +49,6 @@
     resize: none;
     border-radius: 30px;
     text-align: center;
-    border: none;
 }
 
 .contact form textarea {
