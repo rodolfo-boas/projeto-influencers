@@ -30,6 +30,9 @@ header span a:hover{
     text-decoration: none;
 }
 
+.navbar-nav{
+    margin-left: 20%;
+}
 
 header nav ul {
     display: flex;
@@ -408,6 +411,12 @@ footer div{
         transition-duration: 0.25s;
     }
 
+
+
+    .navbar-nav{
+        margin-left: 0;
+    }
+    
     /* ================================================ Header Fim ========================================== */
 
     /* ================================================ Banner Início ======================================= */
@@ -450,6 +459,12 @@ footer div{
         text-align: center;
         transition-duration: 0.25s;
     }
+
+
+    .navbar-nav{
+        margin-left: 0;
+    }
+
 
     /* ================================================ Header Fim ========================================== */
     

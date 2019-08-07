@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link text-center" href="index.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="quemsomos.php">Quem Somos</a></li>
         <li class="nav-item"><a class="nav-link" href="contato.php">Contato</a></li>
