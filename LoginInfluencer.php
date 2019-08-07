@@ -19,7 +19,7 @@
                         </div>
                     </div> <!-- fim Col Cadastro -->
 
-                    <div class="col-10 offset-1 col-md-6 offset-md-0 d-flex flex-column justify-content-center order-1 order-md-0">
+                    <div class="col-10 offset-1 col-md-6 offset-md-0 d-flex flex-column justify-content-center order-0 order-md-0">
                         <div class="login">
                             <h4 class="text-center">Sou Influencer</h4>
                             <p class="text-center">Se você já possui conta conosco, entre com seu usuário e senha abaixo:</p>

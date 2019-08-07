@@ -11,7 +11,7 @@
             include "inc/header.php"
         ?>
 
-        <main id="bg-content">
+        <main class="bg-content">
             <section class="container-fluid">
                 <div class="cadastro">
 
