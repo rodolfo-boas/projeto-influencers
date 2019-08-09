@@ -5,17 +5,19 @@
 body{
     font-size: 18px;
 }
+
     /* ================================================ Header Início ====================================== */
 
 header{
     background-color:#ffffff;
 }
 
-header span a{
+.navbar-brand{
     color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.2em;
+    margin-right: 0%;
 }
 
 .dot-color {
@@ -28,22 +30,88 @@ header span a:hover{
     text-decoration: none;
 }
 
+.navbar-nav{
+    margin-left: 20%;
+}
+
 header nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: rgba(0, 0, 0, 0.7);
+    color: #fff;
     font-size: 0.9em;
     font-weight: lighter;
 }
-   
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(122, 122, 122, 0.7);
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+header ul li a{
+    margin: 25px 25px;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transform: translateX(-15%);
+    transform: translateX(-15%);
+    border-radius: 50px;
+    width: 130%;
+    text-align: center;
+    transition-duration: 0.25s;
+}
+
+header ul li a:hover{
+    color: white;
+}
+
+header ul li.active a {
+    color: white;
+}
+
+header ul li:nth-child(1) a {
+    background-color: #fa9aed;
+}
+
+header ul li:nth-child(2n) a {
+    background-color: #f869e5;
+}
+
+header ul li:nth-child(3n) a {
+    background-color: #c53eb3;
+}
+
+header ul li:nth-child(4n) a {
+    background-color: #9e308f;
+}
+
+header ul li:nth-child(5n) a {
+    background-color: #7e1370;
+}
+
+header .dot{
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+
     /* ================================================ Header Fim ========================================== */
-
-
 
     /* ================================================ Banner Início ======================================= */
 
@@ -145,30 +213,100 @@ section #img-home{
 
     /* ================================================ Carrossel Fim ======================================= */
 
+    /* ================================================ Serviços Início ======================================= */
+
+.teste{
+    background: purple;
+    padding: 30px 0;
+    color: white;
+}
+.servicos-img-01{
+    background-image: url('../image/influencer9.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.servicos-img-02{
+    background-image: url('../image/influencer10.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.servicos-img-03{
+    background-image: url('../image/influencer11.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.servicos-texto{
+    padding: 100px 40px;
+}
+
+    /* ================================================ Serviços Fim ========================================== */
+
+    /* ================================================ Galeria Início ======================================= */
+
+.titulo-galeria{
+    text-align: center;
+    font-size: 2em;
+}
+
+.polaroid h3{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.polaroid img h3 p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.polaroid{
+    border: 12px solid #fff;
+    border-bottom: 20px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    -moz-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    height: auto;
+    max-width: 100%;
+}
+
+.insta{
+    max-height: 15px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+    /* ================================================ Galeria Fim ========================================= */
+
     /* ================================================ Review Início ======================================= */
 
-    .reviewContent h3{
-        color: white;
-    }
-    
-    section.reviewContent{
-        background-color: purple;
-    }
+.reviewContent h3{
+    color: white;
+}
 
-    section.reviewContent p{
-        line-height: 1.9;
-    }
-    
-    section article .reviewBorder{
-        border-bottom: 1px solid white;
-        
-    }
+section.reviewContent{
+    background-color: purple;
+}
 
-    article div h4{
-        color: white;
-        font-size: 0.8em;
-        margin-top: 10px;
-    }
+section.reviewContent p{
+    line-height: 1.9;
+}
+
+section article .reviewBorder{
+    border-bottom: 1px solid white;
+    
+}
+
+article div h4{
+    color: white;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
 
     /* ================================================ Review Fim ======================================= */
 
@@ -258,6 +396,29 @@ footer div{
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
 @media (max-width: 575.98px) { 
+
+    /* ================================================ Header Início ====================================== */
+
+    header ul li a{
+        margin: 0;
+        -webkit-transform: none;
+        transform: none;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        text-align: center;
+        transition-duration: 0.25s;
+    }
+
+
+
+    .navbar-nav{
+        margin-left: 0;
+    }
+    
+    /* ================================================ Header Fim ========================================== */
+
     /* ================================================ Banner Início ======================================= */
     
     section #textHome{
@@ -284,6 +445,29 @@ footer div{
 }
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    /* ================================================ Header Início ====================================== */
+
+    header ul li a{
+        margin: 0;
+        -webkit-transform: none;
+        transform: none;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        text-align: center;
+        transition-duration: 0.25s;
+    }
+
+
+    .navbar-nav{
+        margin-left: 0;
+    }
+
+
+    /* ================================================ Header Fim ========================================== */
+    
     /* ================================================ Banner Início ======================================= */
     
     section article h1{
@@ -493,9 +677,6 @@ footer div{
     }
 
     /* ======================================== Review Fim =================================================== */
-
-}
-
 
     /* ======================================= Gallery Influencers Inicio =================================== */
 
