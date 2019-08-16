@@ -4,7 +4,9 @@
     <?php
         include "inc/head.php";
     ?>
-
+    <title>REACH ME OUT. - Quem Somos</title>
+    <meta name="description" content="Nós da REACH ME OUT. somos uma equipe focada em te fazer crescer e alcançar suas metas!">
+    <link rel="canonical" href="quemsomos.php">
     <body>
 
         <?php
