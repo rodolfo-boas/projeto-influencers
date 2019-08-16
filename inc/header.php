@@ -1,12 +1,13 @@
-<header class="container-fluid navbar navbar-expand-sm navbar-light row align-items-baseline m-0">
+<header>
+    <nav class="navbar navbar-expand-md navbar-light align-items-baseline m-0">
   <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
-    <span class="col-8 col-sm-8 col-md-4">
+    <span class="col-8 col-md-4">
         <a href="index.php" class="navbar-brand">REACH ME OUT</a><span class="dot-color">.</span>
     </span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <section class="collapse navbar-collapse col-md-8" id="navbarText">
         <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link text-center" href="index.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="quemsomos.php">Quem Somos</a></li>
@@ -14,7 +15,8 @@
         <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target=".bd-cliente-modal-lg">Cliente</a></li>
         <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target=".bd-influencer-modal-lg" >Influencer</a></li>
         </ul>
-    </div>
+    </section>
+    </nav>
 </header>
     <?php
         include "LoginCliente.php";

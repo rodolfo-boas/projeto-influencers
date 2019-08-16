@@ -11,4 +11,3 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>REACH ME OUT. - HOME</title>
     <link rel="icon" type="imagem/png" href="assets/ico/r.png" />
-</head>
