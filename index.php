@@ -13,7 +13,6 @@
         ?>
 
         <main>
-
             <section class="container-fluid">
                 <article class="row align-items-center" id="bg-content">
 
