@@ -9,6 +9,4 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>REACH ME OUT. - HOME</title>
     <link rel="icon" type="imagem/png" href="assets/ico/r.png" />
-</head>

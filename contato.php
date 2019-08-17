@@ -4,6 +4,9 @@
                 include "inc/head.php";
                 include "inc/headContato.php"
     ?>
+    <title>REACH ME OUT. - Contato</title>
+    <meta name="description" content="Entre em contato conosco com a Reach Me Out">
+    <link rel="canonical" href="contato.php">
     <body>
 
         <?php
